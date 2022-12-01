@@ -1,0 +1,131 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+body{
+  background-color: #F5F7FB;
+}
+
+.landing--page{
+  color: #293264;
+}
+
+.start--button{
+  margin-top: 30px;
+  color: #F5F7FB;
+  background-color: #4D5B9E;
+  height: 55px;
+  width: 200px;
+}
+
+.blob{
+  position: fixed;
+  right: -1000px;
+  top: 100px;
+  bottom: 300px;
+  left: 1500px;
+  background: #FFFAD1;
+  transform: rotate(-128.49deg);
+  z-index: 0;
+}
+
+.blob-2{
+  position: fixed;
+  right: 1000px;
+  top: 300px;
+  bottom: 100px;
+  left: -1500px;
+  background: #DEEBF8;
+  transform: rotate(-128.49deg);
+  z-index: 0;
+}
+
+.question--text{
+  font-size: 20px;
+  justify-items: left;
+  justify-content: left;
+  align-content: left;
+  text-align: left;
+  padding-bottom: 10px;
+  color: #293264;
+  font-weight: 700;
+}
+
+.answer--container{
+  display: flex;
+  flex-direction: row;
+  justify-items: left;
+  gap: 25px;
+}
+
+.answer{
+  color: #4D5B9E;
+  border: 0.771045px solid #4D5B9E;
+  border-radius: 7.71045px;
+  padding: 15px;
+  margin: auto;
+  font-family: 'Inter';
+  text-align: center;
+  width: 100%;
+  cursor: pointer;
+}
+
+.answer--selected{
+  background-color: #D6DBF5;
+  border-radius: 7.71045px;
+  padding: 15px;
+  margin: auto;
+  color: #293264;
+  font-weight: 600;
+  font-family: 'Inter';
+  text-align: center;
+  width: 100%;
+  cursor: pointer;
+
+}
+
+.incorrect--answer--done{
+  background-color: #F8BCBC;
+  border-radius: 7.71045px;
+  padding: 15px;
+  margin: auto;
+  color: #293264;
+  font-weight: 600;
+  font-family: 'Inter';
+  text-align: center;
+  width: 100%;
+  cursor: pointer;
+}
+
+.correct--answer--done{
+  background-color: #94D7A2;
+  border-radius: 7.71045px;
+  padding: 15px;
+  margin: auto;
+  color: #293264;
+  font-weight: 600;
+  font-family: 'Inter';
+  text-align: center;
+  width: 100%;
+  cursor: pointer;
+}
+
+.submit--button{
+  margin-top: 40px;
+  width: 250px;
+  height: 80px;
+  background: #4D5B9E;
+  border-radius: 20px;
+  color: white;
+}
+
+.results--p{
+  padding-top: 15px;
+  color: #293264;
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 0;
+}
